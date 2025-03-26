@@ -8,5 +8,6 @@ class Teacher:
         print(self.name)
 
 if __name__ == "__main__":
-    teacher = Teacher()
-    teacher.getName()
+    teacher1 = Teacher('chris')
+    teacher2 = Teacher('Tom')
+    teacher1.getName()
